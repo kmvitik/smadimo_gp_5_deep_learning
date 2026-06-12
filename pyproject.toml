@@ -6,4 +6,15 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "black[jupyter]>=26.5.1",
+    "datasets>=4.0.0",
+    "fastparquet>=2026.5.0",
+    "huggingface-hub>=1.19.0",
+    "pandas>=3.0.3",
+    "pyarrow==20.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
 ]
